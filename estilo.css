@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    line-height: 1.6;              
+    background-color: #f9f6f0;      
+    color: #333333;                
+}
+
+header {
+    background-color: #800020;     
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    background-color: #333333;     
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;          
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: #800020;
+    transition: 0.3s;
+}
+
+nav a.activo {
+    background-color: #5c0017;
+}
+
+main {
+    max-width: 800px;             
+    margin: 2rem auto;             
+    padding: 0 1rem;              
+}
+
+main h2 {
+    color: #800020;
+    border-bottom: 2px solid #800020;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.receta {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+}
+
+.receta h3 {
+    font-size: 1.8rem;
+    color: #333333;
+    margin-bottom: 0.5rem;
+}
+
+.descripcion {
+    font-style: italic;
+    color: #666666;
+    margin-bottom: 1.5rem;
+}
+
+.receta h4 {
+    margin: 1.5rem 0 0.5rem 0;
+    color: #800020;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: 0.6rem;          
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+}
+.receta img {
+    display: block;        
+    width: 100%;          
+    max-width: 500px;      
+    height: auto;          
+    margin: 1.5rem 0;   
+    border-radius: 6px;    
